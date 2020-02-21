@@ -1,0 +1,9 @@
+# Ignore Environmental Variables
+.env
+
+# Ignore SQL stuff
+*/data/*
+*/logs/*
+
+# Ignore Teacher Stuff
+Sub-Unit*
