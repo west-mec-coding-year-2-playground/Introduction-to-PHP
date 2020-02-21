@@ -2,7 +2,7 @@ version: "3"
 
 services:
   webserver:
-    container_name: 'phpIntro'
+    container_name: 'php-exercise-1'
     image: davidecesarano/docker-compose-lamp
     restart: always
     ports: 
@@ -12,7 +12,6 @@ services:
       - ./www:/var/www/html
   mysql:
     image: mysql:5.7
-    container_name: 'mysql'
     restart: 'always'
     ports:
       - "${HOST_MACHINE_MYSQL_PORT}:3306"
